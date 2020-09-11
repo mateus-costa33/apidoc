@@ -11,6 +11,6 @@ server.use(routes);
 
 server.use('/uploads', express.static(path.resolve(__dirname, '..', 'uploads')));
 
-server.listen(3333, () => {
+server.listen(8080, () => {
     console.log("Server Rodando!")
 })
